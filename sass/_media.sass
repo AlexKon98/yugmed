@@ -1,0 +1,1231 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1249px)
+
+	.swiper-action
+		margin: 40px 0 0
+		max-width: none
+
+	.buttons
+		&._tablet-center
+			text-align: center
+			.buttons__grid
+				justify-content: center
+
+	.tab-btns
+		margin: 0 -40px 60px
+		padding: 0 40px
+		&._tablet-center
+			text-align: center
+
+	.filter
+		margin: 0 0 60px
+	.filter__grid
+		flex-wrap: wrap
+		.tab-btns
+			min-width: 100%
+	.filter__col
+		flex: 1 0 0
+		min-width: 30%
+		width: auto
+		&._search
+			min-width: 100px
+
+	.filter__grid .inn-title+.filter__col
+		max-width: 40%
+
+	.filter__price-toggle
+		display: block
+
+	.header__map
+		margin: 0 0 0 auto
+	.header__menu li
+		margin-right: 40px
+	.header__dropdown-list
+		padding: 0 30px
+
+	.main-menu__wrap
+		padding: 140px 30px 40px
+	.main-menu__list>li
+		width: 33.33%
+
+	.search-line
+		padding: 15px 20px
+	.search-line__select
+		margin-right: 20px
+
+	.search .inn-title,
+	.search .search-line
+		margin-bottom: 40px
+
+	.search-item
+		margin-bottom: 40px
+	.search-item__head
+		margin-bottom: 10px
+
+	.bann
+		margin: 50px 0
+
+	.bann-slider .search-line
+		margin: -35px 0 0
+		max-width: 570px
+
+	.bann-item
+		padding: 60px 30px
+		height: 650px
+		&:before
+			left: 30px
+			bottom: 200px
+	.bann-item__content
+		min-height: 420px
+		p
+			max-width: 340px
+	.bann-item__img
+		margin-left: -25px
+		max-height: 460px
+
+	.services-slider.is-destroy .swiper-slide
+		width: 50%
+
+	.main-map
+		margin: 0 -40px
+
+	.route-line__select
+		width: 30%
+	.route-line__radios
+		width: 125px
+	.route-line__radio
+		margin-right: 10px
+
+	.home-about .advants-box
+		margin-bottom: -30px
+	.home-about__img
+		margin-right: 60px
+		width: 450px
+		min-height: 400px
+		img
+			max-height: 85%
+	.home-about__main
+		margin: 80px 0 0
+	.home-about__action
+		margin-top: 40px
+
+	.offers-slider .swiper-container
+		overflow: visible
+
+	.foot-main
+		padding: 30px 0
+	.foot-main__menu
+		flex: none
+		order: 10
+		width: 100%
+		margin: 25px 0 0
+	.foot-main__phone
+		margin-left: auto
+
+	.about__dir
+		padding: 0
+		margin-right: 30px
+		width: 305px
+	.about__img
+		margin-right: 35px
+		height: 285px
+		&:after
+			margin-top: -125px
+	.about__quote
+		position: relative
+		max-width: none
+		margin: -30px 0 0
+		padding: 30px
+		&-name
+			margin: 25px 0 0
+			text-align: inherit
+	.about__main
+		margin: 45px 0 0
+		.title
+			margin-bottom: 30px
+	.about__subtitle
+		margin-bottom: 40px
+	.about__content
+		margin: 0
+	.about__action
+		margin: 40px 0 0
+
+	.video-about__btn
+		margin: 0 -40px
+	.video-about .advants-box
+		margin-top: -40px
+
+	.mission__wrap
+		display: block
+	.mission__main
+		margin: 0
+	.mission__content
+		min-height: 0
+	.mission .tab-btns
+		margin-bottom: 30px
+	.mission__img
+		width: 100%
+		max-width: 605px
+		min-height: 400px
+		margin: 50px auto 0
+
+	.story__wrap
+		display: block
+	.story__tabs
+		position: absolute
+		z-index: 5
+		top: 20px
+		left: 0
+
+	.story-item__grid
+		display: block
+
+	.story-item__gallery
+		width: 100%
+		max-width: 540px
+		min-height: 500px
+		margin: 0 auto 80px
+	.story-item__thumbs
+		overflow: visible
+		left: 200px
+		bottom: -30px
+		padding: 0
+		width: 240px
+		.story-item__img
+			height: 140px
+
+	.story-item__main
+		max-width: none
+		margin: 0
+	.story-item__head
+		margin-bottom: 40px
+
+	.gallery-slider
+		.swiper-container
+			overflow: visible
+		.swiper-slide
+			width: 450px
+			&._small
+				width: 213px
+
+	.gallery-item
+		margin: 0 0 25px
+		height: 260px
+		&._vert
+			height: 545px
+
+	.team__col
+		width: 33.33%
+
+	.doctor__wrapper .breadcrumbs
+		position: relative
+		left: 0
+	.doctor__wrap
+		display: block
+	.doctor__img
+		width: 305px
+		height: 390px
+	.doctor__aside
+		margin: 70px 0 0
+		padding: 0
+		width: auto
+	.doctor__main
+		width: auto
+		padding: 0
+	.doctor__tablet
+		padding-left: 345px
+		min-height: 390px
+	.doctor__row
+		margin-bottom: 40px
+		padding-bottom: 40px
+	.doctor__action
+		margin-top: 40px
+	.doctor__content
+		margin: 40px 0 0
+
+	.price .filter
+		margin: 0
+	.price__wrap
+		display: block
+	.price__tabs
+		display: none
+		margin: 0
+		padding: 0 0 20px
+		width: 56%
+		box-shadow: 1px 0 0 #e3e3e3
+		border-bottom: 1px solid #e3e3e3
+	.price__tab
+		border: none
+		&.active
+			display: none
+	.price__main
+		margin: 60px 0 0
+	.price__row
+		margin-bottom: 50px
+
+	.offer__wrap
+		display: block
+		.breadcrumbs
+			position: relative
+	.offer__main
+		width: auto
+
+	.offer__aside
+		display: flex
+		flex-wrap: wrap
+		width: auto
+		margin: 100px 0 0
+		.offer-item
+			margin: 0 0 0 30px
+	.offer__other
+		flex: 1 0 0
+
+	.services__col
+		width: 50%
+
+	.service__wrap
+		display: block
+		.breadcrumbs
+			position: relative
+		.story-item__gallery
+			margin: 0 0 80px
+
+	.service__main
+		min-height: 0
+		margin: 0
+		.title
+			margin-bottom: 30px
+
+	.s-use__col
+		margin-right: 50px
+
+	.post-grid__img
+		margin-right: 80px
+		width: 350px
+		height: 500px
+	.post-grid__main
+		margin: 0
+	.post-grid__content
+		margin: 0
+		min-height: 0
+
+	.post-service__img
+		margin: 0 0 0 50px
+		width: 400px
+
+	.post-program
+		.post-grid
+			align-items: flex-start
+		.post-grid__img
+			margin-right: 60px
+			width: 295px
+			height: 350px
+		.post-grid__content
+			min-height: 0
+
+	.contacts__wrap
+		display: block
+	.contacts__main
+		width: auto
+	.contacts__aside
+		width: auto
+		margin: 100px 0 0
+
+
+@media only screen and (max-width : 991px)
+
+	.mfp-iframe-holder .close-btn
+		right: 50%
+		top: -35px
+		margin-right: -.5em
+
+	.title__descr
+		width: 75%
+		margin: 20px 0 0
+		padding: 0
+
+	.header+.sect
+		margin-top: 50px
+
+	.header__grid
+		padding: 20px 0 0
+		box-shadow: none
+	.header__phone
+		display: none
+	.header__map
+		order: 0
+	.header__line
+		margin: 20px 0 0
+
+	.header__menu
+		width: 100%
+		justify-content: space-between
+	.header__menu li
+		margin: 0
+	.header__menu a
+		padding: 20px 0 5px
+	.header__dropdown
+		padding: 30px 20px 30px 0
+	.header__dropdown-list
+		padding: 0 25px
+
+	.service-item
+		padding: 30px 50px 40px
+
+	.advants-box__item
+		padding: 0 40px
+	.advants-box__head
+		margin-bottom: 10px
+		span:last-child
+			margin: 15px 0 0
+
+	.home-about__grid
+		display: block
+	.home-about__img
+		margin: 0 auto
+		max-width: 100%
+		&:after
+			margin-top: -85px
+	.home-about__main
+		margin: 40px 0 0
+
+	.offers-slider .swiper-slide
+		width: 335px
+
+	.offer-item
+		margin-bottom: 18px
+		padding: 50px 30px
+		max-width: 335px
+	.offer-item._vert
+		height: 508px
+		.link-more
+			left: 30px
+
+	.offer-item._feedback
+		background-image: url('../img/offers/feedback-335.jpg')
+	.offer-item._covid
+		background-image: url('../img/offers/covid-335.jpg')
+		.offer-item__head
+			max-width: 180px
+
+	.s-error
+		margin-bottom: 50px
+	.s-error__img
+		max-width: 240px
+		margin-bottom: 50px
+	.s-error__wrap
+		display: block
+		max-width: 480px
+		margin: 0 auto
+		text-align: center
+	.s-error__head
+		width: auto
+		margin: 0 0 15px
+		padding: 0
+		text-align: center
+	.s-error .buttons
+		margin-top: 40px
+
+	.team__grid
+		margin: 0 -25px -70px
+	.team__col
+		width: 50%
+		padding: 0 25px 70px
+
+	.offer-card__main
+		padding: 40px
+		.subtitle
+			margin-bottom: 15px
+
+	.service-list
+		column-count: 1
+		li:last-child
+			margin-bottom: 0
+
+	.service-main
+		padding: 40px 0
+	.service-main__head
+		margin-bottom: 40px
+
+	.s-use__grid
+		display: block
+	.s-use__col
+		margin: 0 0 50px
+
+	.post-title
+		align-items: flex-end
+
+	.post-grid
+		display: block
+	.post-grid__img
+		width: auto
+		height: 350px
+		margin: 0 0 40px
+	.post-grid__img:after
+		right: -17px
+	.post-grid__head
+		margin-bottom: 20px
+	.post-grid__subhead
+		margin-bottom: 30px
+
+	.post-service__grid
+		display: block
+	.post-service__img
+		width: auto
+		height: 370px
+		margin: 0 0 40px
+	.post-service__head
+		margin-bottom: 40px
+	.post-service__content
+		min-height: 0
+
+	.post-program .post-grid
+		display: flex
+
+	.popup .close-btn
+		right: 50%
+		top: -35px
+		margin-right: -.5em
+
+
+@media only screen and (max-width : 767px)
+	h1, h2
+		font-size: 26px
+	h3
+		font-size: 22px
+
+	#page__main
+		padding-top: 75px
+
+	.sect
+		margin: 100px 0
+
+	.swiper-action
+		margin: 30px 0 0
+
+	.subtitle
+		font-size: 14px
+
+	.title__grid
+		display: block
+		.swiper-nav
+			display: none
+	.title__descr
+		width: auto
+
+	.inn-title
+		margin-bottom: 40px
+	.inn-title__grid .breadcrumbs
+		margin: 0 0 30px
+		order: -5
+	.inn-title__top
+		width: 100%
+	.inn-title__icon
+		text-align: center
+
+	.buttons__grid
+		margin: 0 -15px -30px
+	.buttons__grid>*
+		margin: 0 15px 30px
+
+	.tab-btns
+		text-align: center
+	.tab-btn
+		margin: 0 30px 0 0
+		padding: 0 0 15px
+		font-size: 16px
+		&:last-child
+			margin: 0
+
+	.filter__price-toggle
+		font-size: 16px
+
+	.header
+		display: none
+
+	.scroll-menu
+		transform: none
+	.scroll-menu__grid
+		height: 75px
+	.scroll-menu__toggle
+		margin-right: 20px
+	.scroll-menu__phone
+		display: none
+	.scroll-menu__btn
+		margin: 0 0 0 auto
+
+	.main-menu__wrap
+		padding: 110px 30px 40px
+	.main-menu__list>li
+		width: 100%
+	.main-menu__list>li>a
+		display: block
+		position: relative
+		&:before
+			position: absolute
+			top: 50%
+			right: 0
+			margin: -.5em 0 0
+			content: "\e903"
+			+ic
+			font-size: 18px
+			transition: transform .3s
+		&.active:before
+			transform: rotate(180deg)
+	.main-menu__list>li ul
+		display: none
+
+	.search-line
+		padding: 10px 10px 10px 15px
+	.search-line__field
+		border: none
+	.search-line__select
+		display: none
+
+	.bann-slider .search-line
+		max-width: none
+		margin: -10px 0 0
+
+	.bann-item
+		padding: 30px
+		height: 480px
+	.bann-item:before
+		bottom: 120px
+	.bann-item__head
+		font-size: 30px
+	.bann-item__content
+		min-height: 350px
+		h2
+			font-size: 30px
+		p
+			max-width: none
+	.bann-item__img
+		left: auto
+		right: 5px
+		margin: 0
+		max-height: 250px
+
+	.services-slider .swiper-slide
+		width: 200px
+
+	.service-item
+		padding: 30px 20px 30px 25px
+		font-size: 12px
+
+	.main-map
+		height: 420px
+
+	.route-line
+		flex-wrap: wrap
+		margin: -35px auto 0
+		padding: 20px 30px
+		max-width: 460px
+		&__field,
+		&__select
+			flex: 1 0 0
+			min-width: 45%
+			margin: 0 0 20px
+			border: none
+			border-bottom: 1px solid #4e4e4e
+		&__field
+			margin-right: 20px
+		&__select
+			.SumoSelect>.CaptionCont
+				padding: 0 20px 0 0
+				&:before
+					right: 0
+		&__radios
+			flex: 1 0 0
+			width: auto
+			justify-content: flex-start
+
+	.advants-box
+		display: block
+		padding: 40px
+	.advants-box__item
+		margin: 0 0 25px
+		padding: 0 0 25px
+		width: auto
+		border: none
+		border-bottom: 1px solid #e3e3e3
+		&:last-child
+			margin: 0
+			padding: 0
+			border-bottom: none
+	.advants-box__head
+		display: flex
+		align-items: center
+		justify-content: center
+		margin: 0 0 15px
+		text-align: left
+		span:last-child
+			flex: none
+			margin: 0 0 0 10px
+			max-width: 105px
+
+	.foot-main
+		align-items: center
+	.foot-main__logo
+		max-width: 140px
+		margin-right: 10px
+		.logo img
+			max-height: 50px
+	.foot-main__descr
+		margin: 10px 0 0
+		max-width: 150px
+		font-size: 12px
+	.foot-main__sep
+		width: 100%
+		height: 30px
+	.foot-main__phone
+		flex: 1 0 0
+		margin: 0
+		text-align: left
+	.foot-main__btn
+		margin: 0
+	.foot-main__menu
+		ul
+			margin: 0 -20px -10px
+		li
+			padding: 0 20px 10px
+
+	.foot-bot
+		padding: 30px 0
+		text-align: center
+	.foot-bot__social
+		flex: none
+		width: 100%
+		order: -1
+		margin: 0 0 15px
+	.foot-bot__info
+		margin: 10px 0 0
+		min-width: 100%
+		&:nth-child(n)
+			text-align: inherit
+
+	.about__wrap
+		display: block
+	.about__dir
+		width: auto
+		margin: 0
+	.about__img
+		max-width: 355px
+		height: 355px
+		margin: 0
+	.about__quote-name
+		margin-top: 20px
+	.about__main
+		margin: 40px 0 0
+		.title
+			margin-bottom: 20px
+	.about__subtitle
+		margin-bottom: 30px
+
+	.video-about__btn
+		height: auto
+		&:before
+			content: ''
+			display: block
+			width: 100%
+			padding-bottom: 67.2%
+		img
+			max-width: 65px
+			max-height: 65px
+	.video-about .advants-box
+		margin-top: -30px
+
+	.story__tabs
+		overflow: auto
+		margin: 0 -40px 35px
+		padding: 0 40px
+		position: relative
+		top: 0
+		width: auto
+	.story__tabs-grid
+		flex-direction: row
+	.story__tab
+		margin: 0 30px 0 0
+		white-space: nowrap
+		font-size: 16px
+
+	.story-item__gallery
+		max-width: 345px
+		min-height: 285px
+		&:after
+			display: none
+	.story-item__thumbs
+		left: 80px
+		bottom: -40px
+		width: 120px
+		.story-item__img
+			height: 80px
+			border-radius: 10px
+			box-shadow: 0 0 0 2px #fff
+	.story-item__head
+		margin-bottom: 20px
+
+	.doc-item
+		padding: 15px 30px
+	.doc-item__head
+		margin-right: 22px
+	.doc-item__ext,
+	.doc-item__size
+		display: none
+
+	.team__grid
+		margin: 0 -10px -40px
+	.team__col
+		padding: 0 10px 40px
+
+	.team-item__img
+		margin: 0 0 20px
+
+	.doctor__img
+		position: relative
+		width: auto
+		margin:  0 0 20px
+	.doctor__tablet
+		padding: 0
+		min-height: 0
+	.doctor__action
+		text-align: center
+
+	.price-list__row
+		padding: 13px 15px
+	.price-list__link
+		margin-left: 15px
+
+	.price__tab
+		font-size: 16px
+
+	.offers__grid
+		margin: 0 0 -40px
+	.offers__col
+		width: 100% !important
+		padding: 0 0 40px
+
+	.offer-card
+		display: block
+	.offer-card__img
+		width: auto
+		height: 290px
+		margin: 0 0 15px !important
+	.offer-card__main
+		min-height: 225px
+
+	.offers__col:nth-child(even) .offer-card__main
+		padding: 0 40px
+		min-height: 0
+
+	.offer__aside
+		display: none
+
+	.service-list
+		font-size: 16px
+
+	.s-use__head
+		margin-bottom: 30px
+
+	.post-title
+		display: block
+		margin: 0 0 40px
+		.breadcrumbs
+			margin: 0 0 30px
+
+	.post-service__head
+		margin-bottom: 30px
+
+	.post-program
+		.post-grid
+			display: block
+			&__img
+				width: auto
+				height: 350px
+				margin: 0 0 40px
+			&__main
+				.title
+					margin-bottom: 30px
+					max-width: none
+
+	.contacts__main .title
+		margin-bottom: 30px
+
+	.contacts__phone:nth-child(n)
+		min-width: 100%
+
+	.contacts__social
+		margin: 60px 0 0
+
+	.address-item__hidden
+		padding: 40px 0 20px
+
+
+
+@media only screen and (max-width : 575px)
+	body, html
+		font-size: 14px
+
+	h1, h2
+		font-size: 24px
+	h3
+		font-size: 20px
+	h4
+		font-size: 18px
+	h5
+		font-size: 1em
+
+	.container
+		padding: 0 15px
+
+	.swiper-nav .swiper-button-prev
+		margin-right: 15px
+
+	.mfp-container
+		padding: 0 15px
+	.mfp-preloader, .mfp-title
+		font-size: 14px
+	.mfp-custom-arrow.ic-left
+		left: 5px
+	.mfp-custom-arrow.ic-right
+		right: 5px
+
+	.subtitle
+		font-size: 12px
+
+	.btn
+		padding: 9px 10px 11px
+		min-width: 130px
+		font-size: 14px
+		&[data-mobicon]
+			width: 40px
+			height: 40px
+			min-width: 0
+			padding: 0
+			font-size: 0
+			&:before
+				position: absolute
+				top: 50%
+				left: 0
+				right: 0
+				height: 1em
+				margin: -.5em 0 0
+				+ic
+				font-size: 16px
+		&[data-mobicon="search"]:before
+			content: "\e911"
+
+	.buttons__box
+		min-width: 195px
+
+	.buttons._mob-center
+		text-align: center
+		.buttons__grid
+			justify-content: center
+
+	.form-box
+		padding: 40px 20px
+	.form-title
+		margin-bottom: 20px
+
+	.form-grid__col
+		min-width: 100%
+
+	.tab-btns
+		margin: 0 -15px 60px
+		padding: 0 15px
+
+	.filter__col
+		border-right: none
+		min-width: 100%
+		.form-field
+			padding: 18px 0
+		.SumoSelect>.CaptionCont
+			padding: 0 20px 0 0
+			&:before
+				right: 0
+		&._search
+			border-left: none
+			.form-field
+				padding-right: 40px
+			button
+				width: 45px
+				text-align: center
+	.filter__price-toggle
+		order: 10
+		width: 100%
+
+	.filter__grid .inn-title
+		flex: none
+		width: 100%
+		padding: 0 0 15px
+		border: none
+	.filter__grid .inn-title+.filter__col
+		border-left: none
+
+	.breadcrumbs ul
+		padding: 5px 14px 7px
+
+	.header+.sect
+		margin-top: 40px
+
+	.logo img
+		max-height: 42px
+
+	.scroll-menu__toggle
+		order: 1
+		margin: 0 0 0 15px
+	.scroll-menu__logo
+		&._small
+			display: none
+		&._full
+			display: block
+	.scroll-menu__descr
+		display: none
+
+	.main-menu
+		padding: 0 0 15px
+	.main-menu__wrap
+		padding: 110px 15px 30px
+
+	.bann
+		margin: 30px 0
+	.bann-item
+		height: 430px
+	.bann-item:before
+		bottom: 90px
+		width: 150px
+		height: 45px
+		background-size: contain
+	.bann-item__content
+		min-height: 320px
+		>*
+			margin-bottom: 20px
+		h2
+			font-size: 24px
+	.bann-item__img
+		bottom: -20px
+		max-height: 200px
+
+	.main-map
+		margin: 0 -15px
+	.main-map:before
+		max-width: 250px
+
+	.route-line
+		max-width: 280px
+	.route-line__field,
+	.route-line__select
+		min-width: 100%
+	.route-line__field
+		margin: 0 0 10px
+
+	.advants-box__content
+		margin: 0 auto
+		max-width: 160px
+		font-size: 12px
+
+	.home-about__img
+		width: 290px
+		min-height: 275px
+	.home-about__img:after
+		right: -12px
+		margin-top: -70px
+		width: 45px
+		height: 165px
+		background-size: contain
+	.home-about__main .title
+		margin-bottom: 20px
+	.home-about__action
+		margin-top: 30px
+	.home-about__action>*
+		margin-right: 50px
+
+	.offer-item
+		margin-bottom: 15px
+		padding: 40px 30px
+		height: 235px
+	.offer-item._vert
+		height: 485px
+		.link-more
+			bottom: 40px
+	.offer-item .link-more
+		font-size: 15px
+	.offer-item__head
+		min-height: 55px !important
+
+	.footer:before
+		max-width: 250px
+
+	.about__img:after
+		right: -12px
+		margin-top: -90px
+		width: 45px
+		height: 165px
+		background-size: contain
+
+	.video-about__btn
+		margin: 0 -15px
+
+	.mission__img
+		min-height: 295px
+
+	.story__tabs
+		margin: 0 -15px 35px
+		padding: 0 15px
+
+	.gallery-slider
+		.swiper-slide,
+		.swiper-slide._small
+			width: 345px
+
+	.gallery-item
+		margin: 0 0 15px
+		height: 170px
+		&._vert
+			height: 355px
+
+	.doc-item
+		display: block
+		margin: 0 0 15px
+		text-align: center
+	.doc-item__head
+		margin: 0 0 20px
+	.doc-item__icons
+		justify-content: center
+
+	.team__col
+		width: 100%
+
+	.doctor__img
+		height: 280px
+	.doctor__row
+		margin-bottom: 30px
+		padding-bottom: 30px
+	.doctor__head
+		margin-bottom: 20px
+
+	.doctor__table td,
+	.doctor__table th
+		padding: 0 10px 20px
+
+	.price-list__row
+		padding: 15px 10px
+	.price-list__link
+		width: 100%
+		margin: 8px 0 0
+
+	.reviews-slider .swiper-slide
+		width: 100%
+
+	.review-item
+		padding: 40px 30px
+		&__name
+			font-size: 15px
+	.review-item:after
+		right: 30px
+
+	.price__tabs
+		width: auto
+		box-shadow: none
+
+	.offer-card__main
+		padding: 40px 30px
+	.offer-card__head
+		font-size: 18px
+
+	.offers__col:nth-child(even) .offer-card__main
+		padding: 0 30px
+
+	.offer__main .subtitle,
+	.offer__head
+		margin-bottom: 20px
+	.offer__docs
+		margin: 40px 0 0
+
+	.offer__nav
+		margin: 30px 0 0
+		padding: 30px 0 0
+		font-size: 14px
+
+	.services__col
+		width: 100%
+
+	.service-main
+		padding: 30px 0
+		&__head
+			margin-bottom: 30px
+
+	.service__main .title
+		margin-bottom: 20px
+
+	.post-grid__img
+		height: 240px
+	.post-grid__img:after
+		display: none
+	.post-grid__descr
+		font-size: 16px
+
+	.post-service__img
+		height: 240px
+	.post-service__content
+		font-size: 16px
+
+	.post-program .post-grid__img
+		height: 240px
+
+	.address-item__btn
+		font-size: 18px
+
+	.popup
+		padding: 40px 20px
+		max-width: none
+
+
+@media only screen and (max-width : 374px)
+	.inn-title__icon
+		width: 30px
+		margin-right: 15px
+		img
+			max-height: 32px
+	.inn-title__content
+		margin-left: 45px
+
+	.phone
+		font-size: 17px
+
+	.bann-item
+		padding: 30px 15px
+		&:before
+			left: 15px
+
+	.home-about__action
+		justify-content: space-between
+	.home-about__action>*
+		margin-right: 20px
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+@media only screen and (min-width : 375px)
+	//
+
+@media only screen and (min-width : 576px)
+	//
+
+@media only screen and (min-width : 768px)
+	.main-menu__list>li ul
+		display: block !important
+
+@media only screen and (min-width : 992px)
+	//
+
+@media only screen and (min-width : 1250px)
+	.price__tabs
+		display: block !important
+
+	.story-item__thumbs
+			left: 335px	

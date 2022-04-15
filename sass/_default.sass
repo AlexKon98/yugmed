@@ -1,0 +1,135 @@
+@import "bourbon"
+@import "fonts"
+@import "vars"
+
+//Load Libs
+@import "../libs/normalize-css/normalize.css"
+@import "../libs/icomoon/style.css"
+@import "../libs/magnific-popup/magnific-popup.css"
+@import "../libs/swiper/swiper.min.css"
+@import "../libs/sumoselect/sumoselect.min.css"
+@import "../libs/air-datepicker/datepicker.min.css"
+
+*, :before, :after
+	outline: none !important
+	box-sizing: border-box
+
+::placeholder
+	opacity: 1
+
+body, html
+	font-size: 15px
+
+body
+	position: relative
+	overflow-x: hidden
+	min-width: 320px
+	min-height: 100vh
+	background: #fff
+	font-family: $font-1
+	line-height: 1.6
+	color: #000
+
+a
+	text-decoration: underline
+	color: $c-1
+	&:hover
+		text-decoration: none
+
+button
+	cursor: pointer
+
+b
+	font-weight: bold
+strong
+	font-weight: 600
+
+p, blockquote, ul, ol
+	margin: 0
+
+ul
+	padding-left: 1.15em
+ol
+	padding-left: 1.5em
+
+h1, h2, h3
+	margin: 0
+	font-family: $font-2
+	font-weight: bold
+	letter-spacing: .03em
+	line-height: 1.4
+h4, h5, h6
+	margin: 0
+	font-weight: 600
+h1, h2
+	font-size: 32px
+h3
+	font-size: 24px
+h4
+	line-height: 1.35
+	font-size: 20px
+h5
+	line-height: 1.4
+	font-size: 18px
+h6
+	font-size: 1em
+
+table
+	border-collapse: collapse
+	border-spacing: 0
+
+img
+	display: inline-block
+	vertical-align: middle
+	width: auto
+	height: auto
+	max-width: 100%
+
+mark
+	background: none
+	font-style: italic
+	font-weight: 600
+	color: inherit
+
+#page
+	overflow: hidden
+	position: relative
+	display: flex
+	flex-direction: column
+	min-height: 100vh
+	&__main
+		flex: 1 0 auto
+		width: 100%
+
+.clearfix:after
+	content: ''
+	display: table
+	clear: both
+
+.container
+	width: 100%
+	max-width: 1250px
+	margin: 0 auto
+	padding: 0 40px
+
+.img-box
+	position: relative
+	img
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		margin: auto
+		width: auto
+		height: auto
+		max-width: 100%
+		max-height: 100%
+
+._c-main
+	color: $c-1
+._c-gray
+	color: #7C7C7C
+
+.sect
+	margin: 120px 0

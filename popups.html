@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>ЮгМед</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <meta property="og:image" content="path/to/image.jpg"> -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- CSS End -->
+
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+
+        <a href="#call-popup" data-popup class="btn">Заказать звонок</a><br><br>
+        <a href="#reserv-popup" data-popup class="btn">Запись на прием</a><br><br>
+        <a href="#feedback-popup" data-popup class="btn">Получить консультацию</a><br><br>
+
+        <br>
+    </div>
+
+
+    <!-- Popups -->
+    <div id="call-popup" class="popup mfp-hide">
+        <form class="form-box">
+            <div class="form-title">
+                <h3>Заказать звонок</h3>
+            </div>
+            <div class="form-item">
+                <input type="text" class="form-field" placeholder="Ваше Имя и Фамилия" required>
+            </div>
+            <div class="form-item">
+                <input type="tel" class="form-field" placeholder="+7 (___) ___ __ __" required>
+            </div>
+            <div class="form-item">
+                <input type="email" class="form-field" placeholder="Электронная почта">
+            </div>
+            <div class="form-item">
+                <textarea class="form-field" placeholder="Комментарий"></textarea>
+            </div>
+            <div class="form-action">
+                <div class="form-option">
+                    <label>
+						<input type="checkbox" checked>
+						<span>Согласен с обработкой <a href="#">персональных данных</a></span>
+					</label>
+                </div>
+                <button class="btn">Записаться на прием</button>
+            </div>
+        </form>
+    </div>
+    <div id="reserv-popup" class="popup mfp-hide">
+        <form class="form-box">
+            <div class="form-title">
+                <h3>Запись на прием</h3>
+            </div>
+            <div class="form-item">
+                <input type="text" class="form-field" placeholder="Ваше Имя и Фамилия" required>
+            </div>
+            <div class="form-item">
+                <input type="tel" class="form-field" placeholder="+7 (___) ___ __ __" required>
+            </div>
+            <div class="form-item">
+                <select>
+					<option>Гастроэнтерология</option>
+					<option>Пункт 1</option>
+					<option>Пункт 2</option>
+					<option>Пункт 3</option>
+				</select>
+            </div>
+            <div class="form-item">
+                <select>
+					<option>Толкачева Людмила Владимировна</option>
+					<option>Пункт 1</option>
+					<option>Пункт 2</option>
+					<option>Пункт 3</option>
+				</select>
+            </div>
+            <div class="form-item">
+                <select data-placeholder="Вид услуги">
+					<option>Пункт 1</option>
+					<option>Пункт 2</option>
+					<option>Пункт 3</option>
+				</select>
+            </div>
+            <div class="form-item _icon">
+                <i class="ic ic-calendar"></i>
+                <input type="text" id="disabled-days" class="datepicker-here form-field" data-position="top right" placeholder="Выберите дату записи" readonly required>
+            </div>
+            <div class="form-item time-picker-item">
+                <img class="form-item__img" src="./img/clock.svg" alt="">
+                <input type="text" class="form-field js-form-time" placeholder="Выберите время записи" disabled required>
+                <div class="time-picker">
+                    <div class="time-picker__heading">Выберите время</div>
+                    <ul class="time-picker__list">
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                        <li class="time-picker__item">08:00 - 10:00</li>
+                        <li class="time-picker__item">09:00 - 11:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-action">
+                <button class="btn _dark">Записаться на прием</button>
+            </div>
+        </form>
+    </div>
+    <div id="feedback-popup" class="popup _big mfp-hide">
+        <form class="form-box">
+            <div class="form-title">
+                <h3>Запись на прием</h3>
+            </div>
+            <div class="form-grid">
+
+                <div class="form-grid__col _100p">
+                    <div class="form-item">
+                        <input type="text" class="form-field" placeholder="Ваше Имя и Фамилия" required>
+                    </div>
+                </div>
+                <div class="form-grid__col">
+                    <div class="form-item">
+                        <input type="tel" class="form-field" placeholder="+7 (___) ___ __ __" required>
+                    </div>
+                </div>
+                <div class="form-grid__col">
+                    <div class="form-item">
+                        <input type="email" class="form-field" placeholder="Электронная почта">
+                    </div>
+                </div>
+                <div class="form-grid__col">
+                    <div class="form-item">
+                        <select>
+							<option>Заболевание/нозология</option>
+							<option>Пункт 1</option>
+							<option>Пункт 2</option>
+							<option>Пункт 3</option>
+						</select>
+                    </div>
+                </div>
+                <div class="form-grid__col">
+                    <div class="form-item">
+                        <input type="text" class="form-field" placeholder="ФИО врача">
+                    </div>
+                </div>
+                <div class="form-grid__col _100p">
+                    <div class="form-item">
+                        <textarea class="form-field" placeholder="Комментарий"></textarea>
+                    </div>
+                </div>
+                <div class="form-grid__col _100p">
+                    <div class="form-action">
+                        <div class="form-option">
+                            <label>
+								<input type="checkbox" checked>
+								<span>Согласен с обработкой <a href="#">персональных данных</a></span>
+							</label>
+                        </div>
+                        <button class="btn">Заказать звонок</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <!-- Popups END -->
+
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="js/maps.js"></script>
+    <!-- JS End -->
+    <script>
+        var disabledDays = [0, 5];
+
+        $('#disabled-days').datepicker({
+            onRenderCell: function(date, cellType) {
+                if (cellType == 'day') {
+                    var day = date.getDay(),
+                        isDisabled = disabledDays.indexOf(day) != -1;
+
+                    return {
+                        disabled: isDisabled
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

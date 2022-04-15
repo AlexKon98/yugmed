@@ -1,0 +1,22 @@
+@import "bourbon"
+
+$font-1: "SegoeUI", sans-serif
+$font-2: "AvantGardeCTT", "SegoeUI", sans-serif
+
+$dark: #2E2E36
+$light: #F0FBFE
+
+$c-1: #FE2937
+$c-1-h: #D01420
+
+$shadow: 0 30px 85px rgba(#57777E,.07)
+
+@mixin bg($bg-url, $bg-pos:center, $bg-c:null)
+	background: $bg-c url($bg-url) $bg-pos / cover
+
+@mixin ic($lh:1)
+	font-family: 'icomoon'
+	text-transform: none
+	font-weight: normal
+	font-style: normal
+	line-height: $lh
